@@ -1,0 +1,14 @@
+{
+  "short_name": "NEEMAN",
+  "name": "NEEMAN",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "ohm.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "neemansec.php"
+  
+}

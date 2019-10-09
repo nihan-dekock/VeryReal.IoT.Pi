@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# 2018-07-07:v1.90
+neemansec.php
+scripts/jquery-3.2.1.min.js
+scripts/app.js
+styles/app.css
+sga_alarm.mp3
+switch.mp3
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+beamjson.php
+*

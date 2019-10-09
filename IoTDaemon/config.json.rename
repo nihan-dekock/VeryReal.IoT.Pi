@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "user": "dbusername",
+    "pwd": "dbpassword",
+    "db": "NeeMan"
+  },
+  "telegram": {
+    "token": "TelegramToken",
+    "channel": "TelegramChannel"
+  }
+}

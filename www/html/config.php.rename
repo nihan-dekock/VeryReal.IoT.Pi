@@ -1,0 +1,12 @@
+<?php
+
+return (object) array(
+    'username' => 'protouser',
+    'pwd' => 'ProtoPwd531$!',
+	'dbhost' => 'localhost',
+	'dbname' => 'NeeMan',
+	'dbuser' => 'root',
+	'dbpwd' => 'RootPwd346!#@',
+);
+
+?>

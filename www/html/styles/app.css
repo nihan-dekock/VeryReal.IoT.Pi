@@ -1,0 +1,275 @@
+﻿body, html {
+    font-family: Arial;
+    margin: 0px;
+    background-color: #E6E6E6;
+}
+
+table {
+    width: 100%;
+}
+
+.MainHead {
+    background-color: #990000;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.8em;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+
+.form-submit-button {
+    background-color: #990000;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.2em;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+
+.login {
+    padding: 30px;
+}
+
+.SubHead {
+    background-color: #666666;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 9px;
+    font-size: 1.1em;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+
+.AlarmStatus {
+    border: 3px solid;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+    background-color: #ffffff;
+}
+
+.ZoneStatus {
+    border: 3px solid;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 3px;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+    background-color: #ffffff;
+    height: 2.8em;
+}
+
+.Armed {
+    border-color: #990000;
+    color: #990000;
+}
+
+.DisArmed {
+    border-color: #009900;
+    color: #009900;
+}
+
+.NotMonitoring {
+    border-color: #3F8CFF;
+    color: #3F8CFF;
+}
+
+.ZoneStatusText {
+    font-size: 0.7em !important;
+    color: #666666;
+}
+
+.LightStatusText {
+    font-size: 0.9em !important;
+    color: #666666;
+}
+
+.ZoneName {
+    font-size: 1.1em !important;
+}
+
+.AlarmStatusText {
+    font-size: 1.3em !important;
+}
+
+.LastDate {
+    font-size: 0.8em;
+    color: #666666;
+}
+
+.super {
+    vertical-align: super;
+}
+
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.08);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+.container {
+    width: 200px;
+    height: 100%;
+    margin: 0 auto 0;
+}
+
+
+.pulse-red {
+    font-size: 38px;
+    padding-top: 5px;
+    color: #ffffff;
+    width: 55px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 50%;
+    background-color: #e84c3d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.pulse-green {
+    font-size: 38px;
+    padding-top: 5px;
+    color: #ffffff;
+    width: 55px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(0, 153, 0, 0.7);
+    border-radius: 50%;
+    background-color: #009900;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.pulse-blue {
+    font-size: 38px;
+    padding-top: 5px;
+    color: #ffffff;
+    width: 55px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(0, 153, 0, 0.7);
+    border-radius: 50%;
+    background-color: #6699ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.pulse-search {
+    font-size: 38px;
+    padding-top: 5px;
+    color: #ffffff;
+    width: 55px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 50%;
+    background-color: #CC00CC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.LightsOff {
+    border-color: #666699;
+    color: #666699;
+}
+
+.LightsOn {
+    border-color: #FF9900;
+    color: #FF9900;
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 45px rgba(153, 0, 0, 0);
+    }
+}
+
+@-moz-keyframes pulseOf {
+    to {
+        box-shadow: 0 0 0 45px rgba(153, 0, 0, 0);
+    }
+}
+
+@-ms-keyframes pulseOf {
+    to {
+        box-shadow: 0 0 0 45px rgba(153, 0, 0, 0);
+    }
+}
+
+@keyframes pulseOf {
+    to {
+        box-shadow: 0 0 0 45px rgba(153, 76, 0, 0);
+    }
+}
