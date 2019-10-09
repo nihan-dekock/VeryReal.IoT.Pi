@@ -1,5 +1,5 @@
 # VeryReal.IoT.Pi
- Raspberry Pi IoT daemon written in Pythin with a PHP web app (used from mobile devices) to control home electronics, receive Telegram notifications when the alarm is triggered and arm/disarm the alarm system remotely.
+ Raspberry Pi IoT daemon written in Python 3 with a PHP web app (used from mobile devices) to control home electronics, receive Telegram notifications when the alarm is triggered and arm/disarm the alarm system remotely.
 
 ### Purpose
 This is a prototype project that is working on my Raspberry Pi 3 Model B running Raspbian GNU/Linux 8 and the purpose is as follows:
